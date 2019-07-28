@@ -44,7 +44,7 @@
 
 #include "Arduino.h"			// use "WProgram.h" for IDE <1.0
 #include "avr/pgmspace.h"
-#include "util/delay.h"
+//#include "util/delay.h"
 #include "stdlib.h"
 #include "SPI.h"
 #include "PlayingWithFusion_MAX31865_STRUCT.h"
