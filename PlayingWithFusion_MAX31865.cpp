@@ -114,7 +114,6 @@ void PWFusion_MAX31865_RTD::MAX31865_full_read(struct var_max31865 *rtd_ptr)
 {
   // Function to unpack and store MAX31865 data
   uint16_t _temp_u16, _rtd_res;
-  uint32_t _temp_u32;
 
   digitalWrite(_cs, LOW);			// must set CS low to start operation
 
